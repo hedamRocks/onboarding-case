@@ -1,0 +1,13 @@
+{
+    "title": "Velkommen til Selvbetjening",
+    "description": "Log ind med din brugerkonto",
+    "emailLabel": "Email",
+    "passwordLabel": "Adgangskode",
+    "loginButtonText": "Log ind",
+    "forgotPasswordText": "Glemt adgangskode?",
+    "warnings": {
+        "invalidCredentials": "Ugyldig email eller adgangskode. Prøv igen.",
+        "requiredFields": "Email og adgangskode er påkrævet.",
+        "emailFormat": "Indtast en gyldig emailadresse."
+    }
+}

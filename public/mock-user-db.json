@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "email": "testuser",
+        "password": "password123",
+        "isOnboarded": false
+    },
+    {
+        "id": 2,
+        "email": "janedoe",
+        "password": "securepass",
+        "isOnboarded": false
+    },
+    {
+        "id": 3,
+        "email": "johndoe",
+        "password": "mypassword",
+        "isOnboarded": false
+    },
+    {
+        "id": 4,
+        "email": "nicolai",
+        "password": "checkcheck",
+        "isOnboarded": false
+    }
+]

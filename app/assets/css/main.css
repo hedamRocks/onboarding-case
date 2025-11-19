@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.css';
+
+@layer utilities {
+  .animate-slide-up {
+    opacity: 0;
+    animation: slide-up 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  
+  .animation-delay-75 {
+    animation-delay: 75ms;
+  }
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-150 {
+    animation-delay: 150ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  .onboarding-content p {
+    @apply mb-4;
+  }
+
+  /**
+  * Headings + text
+  */
+  h1, h2, h3, h4, h5, h6, p, a, span, div {
+    @apply font-clever font-normal text-clever-dark tracking-[0.175em] !leading-[1.5];
+  }
+  p, ul {
+    @apply text-sm mb-6;
+  }
+  p:last-child, ul:last-child, li:last-child {
+    @apply mb-0;
+  }
+  h1 {
+    @apply font-thin text-5xl mb-6 lg:mb-10;
+  }
+  h2 {
+    @apply font-thin text-2xl mb-4;
+  }
+  h3 {
+    @apply text-base mb-6 mt-8;
+  }
+  h3:first-child {
+    @apply mt-0;
+  }
+  a {
+    @apply text-sm underline underline-offset-8;
+  }
+}
+
+/* lists ul/li */
+ul {
+  @apply list-disc list-outside pl-6;
+}
+ul li {
+  @apply mb-2;
+}
+
+/*
+  Enter and leave animations can use different
+  durations and timing functions.
+*/
+
+.fade-in-enter-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.fade-in-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.fade-in-enter-from,
+.fade-in-leave-to {
+  opacity: 0;
+}
+
+.fade-y-enter-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.fade-y-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.fade-y-enter-from,
+.fade-y-leave-to {
+  margin-top: 4px;
+  opacity: 0;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

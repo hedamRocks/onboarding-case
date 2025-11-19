@@ -1,0 +1,26 @@
+{
+    "title": "Ny og forbedret selvbetjening",
+    "description": "Vi har udviklet og opdateret din selvbetjening. Vi arbejder fortsat på de små detaljer, men det vigtigste er på plads.",
+    "steps": [
+        {
+            "title": "Bedre brugeroplevelse",
+            "content": "<p>Lad os starte med en hurtig introduktion til de nye funktioner.</p><ul><li>Mød et opdateret design, der understøtter funktioner</li><li>Find nemt rundt med færre menupunkter</li><li>Naviger hurtigere med simpelt overblik</li></ul>",
+            "imageUrl": "/images/onboarding/onboarding-step-1.svg"
+            
+        },
+        {
+            "title": "Bedre overblik",
+            "content": "<p>Det er blevet endnu nemmere at håndtere dine abonnementer og ladeadfærd</p><ul><li>Få det fulde overblik over abonnementer</li><li>Dyk ned i detaljer om abonnementer, ladeadfærd og forbrug</li><li>Bestil og opsig abonnementer og ladebrikker</li></ul>",
+            "imageUrl": "/images/onboarding/onboarding-step-2.svg"
+        },
+        {
+            "title": "Bedre bestillingsflow",
+            "content": "<p>Det skal være nemt at bestille abonnementer i selvbetjeningen. Derfor har vi forbedret funktionerne i i bestillingsflowet.</p><ul><li>Bliv guidet til det rette produkt</li><li>Følg med i bestillingen med tydelig status på processen</li><li>Modtag en kvitteringsmail i indbakken</li></ul>",
+            "imageUrl": "/images/onboarding/onboarding-step-3.svg"
+        }
+    ],
+    "nextButtonText": "Næste",
+    "prevButtonText": "Forrige",
+    "skipButtonText": "Spring over",
+    "finishButtonText": "Kom i gang"
+}
