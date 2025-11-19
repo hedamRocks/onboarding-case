@@ -1,5 +1,10 @@
 # Clever Case
 
+## Requirements
+
+- Node.js v18+ (LTS)
+- npm v8+ (or yarn / pnpm)
+
 ## Installation
 
 ```bash
